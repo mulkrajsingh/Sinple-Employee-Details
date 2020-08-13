@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    
+}
+
+.header {
+    text-align: center;
+    background: rgb(8, 73, 110);
+}
+
+.mainForm {
+    width: 450px;
+    margin: 50px;
+    border: 3px solid black;
+    background-color: rgb(61, 37, 6);
+
+}
+
+.r1 {
+    left: 60px;
+}
+
+#emp-id {
+    left: -170px;
+    top: 30px;
+}
+
+#emp-name {
+    left: -155px;
+    top: 30px;
+}
+
+#emp-age {
+    left: -160px;
+    top: 30px;
+}
+
+#emp-address {
+    left: -140px;
+    top: 30px;
+}
+
+.r5 {
+    margin: 30px;
+}
+
+#add {
+    margin-right: 40px;
+}
+
+p {
+    margin-right: -500px;
+    margin-top: -360px;
+    font-size: 30px;
+    font-weight: 1000;
+    font-variant: small-caps;
+}
+
+#empTable, th, td {
+    margin-left: 650px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: max-content;
+}
+
+th, td {
+    padding: 10px;
+}

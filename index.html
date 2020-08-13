@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    </link>
+    <title>Employee Details</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Employee Details</h1>
+        <h3>CURD Operation</h3>
+    </header>
+
+    <div class="mainForm">
+
+        <div id="emp-id" class="r1">ID</div>
+        <div id="enter-id" class="r1">
+            <input type="text" id="id" readonly></input>
+        </div>
+
+        <div id="emp-name" class="r1">Name</div>
+        <div id="enter-name" class="r1">
+            <input type="text" id="name" placeholder="Enter name"></input>
+        </div>
+
+        <div id="emp-age" class="r1">Age</div>
+        <div id="enter-age" class="r1">
+            <input type="text" id="age" placeholder="Enter Age"></input>
+        </div>
+
+        <div id="emp-address" class="r1">Adddress</div>
+        <div id="enter-address" class="r1">
+            <input type="text" id="address" placeholder="Enter Adddress"></input>
+        </div>
+
+        <div class="r5">
+            <button id="add" onclick="addUpdate()">Add</button>
+            <button id="reset" onclick="reset()">Reset</button>
+    </div>
+
+    </div>
+    <p id="para-details">Employee Details</p>
+
+
+
+    <table id="empTable">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
